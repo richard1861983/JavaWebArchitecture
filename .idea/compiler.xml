@@ -23,12 +23,17 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="chapter1" />
-        <module name="chapter2" />
+        <module name="chapter3" />
+        <module name="smart-framework" />
+        <module name="Test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter1" target="1.6" />
       <module name="chapter2" target="1.5" />
+      <module name="chapter3" target="1.5" />
+      <module name="smart-framework" target="1.6" />
+      <module name="Test" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
